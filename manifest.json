@@ -1,0 +1,36 @@
+{
+  "name": "Portfolio",
+  "icons": [
+    {
+      "src": "icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "icon_76.png",
+      "sizes": "76x76",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "icon_50.png",
+      "sizes": "50x50",
+      "type": "image/png",
+      "density": "1.0"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "xwalk_launch_screen": {
+    "ready_when": "first-paint | complete | custom",
+    "default | landscape": {
+       "background_color": "#222",
+       "image": "splash_android.jpg"
+     }
+  }
+
+
+
+}
