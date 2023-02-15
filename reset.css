@@ -185,9 +185,6 @@ div.header_menu_icon_row {
     width:945px;
     clear:both;
 }
-div#about_container > div{
-    border:1px solid orange;
-}
 div#about_container p{
   margin-bottom: 20px;
   font-size: 13px;
